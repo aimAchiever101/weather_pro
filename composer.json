@@ -1,0 +1,17 @@
+{
+    "name": "kanik/weather_pro",
+    "autoload": {
+        "psr-4": {
+            "Kanik\\WeatherPro\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kanika",
+            "email": "kanakmoulekhi@gmail.com"
+        }
+    ],
+    "require": {
+        "vender/package-name":"version"
+    }
+}
