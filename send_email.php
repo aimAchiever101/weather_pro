@@ -13,7 +13,7 @@ require'vendor/phpmailer/phpmailer/src/SMTP.php';
 // Function to fetch weather data using file_get_contents
 function fetchWeatherData($location)
 {
-    $weatherApiKey = '0dcc0217b2244e78888154028242604'; //  Weather API key
+    $weatherApiKey = ''; //  Weather API key
     $url = "https://api.weatherapi.com/v1/current.json?key={$weatherApiKey}&q={$location}";
 
     // Make HTTP request to the weather API
@@ -57,8 +57,8 @@ $weatherSummary = "Currently in $location, it's $condition with a temperature of
             $mail->isSMTP();
             $mail->Host       = 'smtp.gmail.com';
             $mail->SMTPAuth   = true;
-            $mail->Username   = 'kanakmoulekhi@gmail.com'; //  Gmail email address
-            $mail->Password   = 'lqbttjwxxjeysufz'; // Gmail password
+            $mail->Username   = ''; //  Gmail email address
+            $mail->Password   = ''; // Gmail password
             $mail->SMTPSecure = 'tls';
             $mail->Port       = 587;
 
