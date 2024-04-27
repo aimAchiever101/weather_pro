@@ -3,6 +3,7 @@ This is a website which fetch weather data from weatherAPI.com, and send user an
 create a file name "file_name"
 go to this directory.
 run command composer-v
+run command composer init
 it will create composer.json
 add this code:
  "require": {
