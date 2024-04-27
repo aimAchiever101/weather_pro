@@ -70,13 +70,13 @@ $weatherSummary = "Currently in $location, it's $condition with a temperature of
             $mail->isHTML(false);
             $mail->Subject = 'Weather Report';
             $mail->Body    = "
-            Weather Summary for 
+            Weather Summary for $location 
             Hello Dear user,
+            
             hope this email finds you well. As part of our commitment to keeping you 
             informed about the weather conditions in your area, I'm pleased to provide you 
             with a summary of the recent weather patterns in $location.
-
-
+           
             \n\n$weatherSummary\n\n
             Please note that this summary is based on available data and forecasts, 
             and actual conditions may vary. For the most accurate and up-to-date information, 
