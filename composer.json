@@ -1,14 +1,14 @@
 {
-    "name": "kanik/weather_pro",
+    "name": "Dir_name/weather_pro",
     "autoload": {
         "psr-4": {
-            "Kanik\\WeatherPro\\": "src/"
+            "Dir_name\\WeatherPro\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "kanika",
-            "email": "kanakmoulekhi@gmail.com"
+            "name": "",//name of author
+            "email": ""//email of author
         }
     ],
     "require": {
