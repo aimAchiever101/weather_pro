@@ -9,7 +9,7 @@ add this code:
         "vender/package-name":"version"
     }
 it will create a vendor folder and it will add a composer folder with all files
-now create a folder name phpmailer/phpmailer and you can search in hithub PHPMailer and download this ziop file and copy all these files in the phpmailer/phpmailer folder.
+now create a folder name phpmailer/phpmailer and you can search in hithub PHPMailer and download this zip file and copy all these files in the phpmailer/phpmailer folder.
 create an assets named folder and you can downlaod any image for background.
 now two main files
  file name : "index.php" this webpage will be shown to the user, user will enter the location and a email id and the data will sended to their email with "send_email.php" file.
